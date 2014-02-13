@@ -1,0 +1,853 @@
+<!DOCTYPE HTML>
+<html lang="de-DE" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="css/topcoat/topcoat-mobile-light.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/lib/angular.js"></script>
+
+    <head>        
+        <meta charset="UTF-8" />        
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+     <meta name="robots" content="index, follow" />       
+     
+
+    
+	<!-- link rel="author" href="https://plus.google.com/+Byte-unit/posts"/-->
+	<link rel="author" href="https://plus.google.com/115896832383737725102/posts"/>
+	
+	
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="stylesheet" href="http://www.byte-unit.com/wp-content/themes/Kronos-WP/style.css" type="text/css" media="screen" />
+	<link rel="alternate" type="application/rss+xml" title="byte-unit RSS Feed" href="http://www.byte-unit.com/feed/" />
+	<link rel="alternate" type="application/atom+xml" title="byte-unit Atom Feed" href="http://www.byte-unit.com/feed/atom/" />
+
+
+        <link rel="pingback" href="http://www.byte-unit.com/xmlrpc.php" />  		        
+        
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.4.15 - http://yoast.com/wordpress/seo/ -->
+<title>byte-unit - web solution provider - Wir realisieren Ihren Web-Auftritt</title>
+<meta name="description" content="Wir erstellen Websites, Online Shops und Content Management Systeme zu einem unschlagbaren Preis, individuell, unkopliziert und ganz nach Ihren Vorstellungen!"/>
+<link rel="canonical" href="http://www.byte-unit.com/" />
+<meta property="og:locale" content="de_DE"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="byte-unit - web solution provider - Wir realisieren Ihren Web-Auftritt"/>
+<meta property="og:url" content="http://www.byte-unit.com/"/>
+<meta property="og:site_name" content="byte-unit"/>
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel='stylesheet' id='doc-loader_style-css'  href='http://www.byte-unit.com/wp-content/themes/Kronos-WP/css/doc-loader.css?ver=3.7.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.byte-unit.com/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://www.byte-unit.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var DryAJAX = {"ajaxurl":"http:\/\/www.byte-unit.com\/wp-admin\/admin-ajax.php","ThemePath":"http:\/\/www.byte-unit.com\/wp-content\/themes\/Kronos-WP"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.byte-unit.com/wp-content/themes/Kronos-WP/js/ajax.js?ver=3.7.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.byte-unit.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.byte-unit.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.7.1, fitted with the WordPress Mobile Pack 1.2.5" />
+        <style type="text/css" media="screen">
+          div.printfriendly {
+            margin: 5px 5px 5px 5px;;
+          }
+          div.printfriendly a, div.printfriendly a:link, div.printfriendly a:visited {
+            text-decoration: none;
+            font-size: 12px;
+            color: #666666;
+            vertical-align: bottom;
+            border: none;
+          }
+
+          .printfriendly a:hover {
+            cursor: pointer;
+          }
+
+          .printfriendly a img  {
+            border: none;
+            padding:0;
+            margin-right: 6px;
+            display:inline-block;
+            box-shadow: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+          }
+          .printfriendly a span{
+            vertical-align: bottom;
+          }
+          .pf-alignleft {
+            float: left;
+          }
+          .pf-alignright {
+            float: right;
+          }
+          div.pf-aligncenter {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+          }
+        </style>
+        <style type="text/css" media="print">
+          .printfriendly {
+            display: none;
+          }
+        </style>
+<style type="text/css">body { color:#ffffff; }.main-menu nav { background-color:#ffffff; }.main-menu nav a { color:#000000; }div.main-menu nav ul li.active a { color:#D82546; }#filter li { background-color:#536A97; }#filter li.current { background-color:#D01F40; }#work-items li { background-color:#ffffff; }#work-items li { border-color:#ffffff; }#work-items li h2 a { color:#273C66; }div.about-item-holder h2 { color:#ffffff; }div.about-item-holder div.sub-info { color:#686716; }#news-items li p.title a { color:#6C1E2C; }#news-items li span.category { color:#ffffff; }#news-items li a.read-more { background-color:#AC1F39; }.contact-form input, .contact-form textarea { background-color:#424242; }.contact-form button { background-color:#AC1F39; }footer { color:#1e1e1e; }footer { background-color:#ffffff; }article .article-content, .popup-close, .posts-navigation, .comments-holder, .comments-pagination-wrapper, div.pop-up-footer { background-color:#D82545; }#commentform input#author, #commentform input#email, #commentform textarea { background-color:#6C1E2C; }article .single-h1-title, article .article-content span.category, .comment-separator, .comment-author, .logged-in-as, .comments-holder a, .separator, .comment-date, #commentform input#submit { color:#6C1E2C; }div.pop-up-copyright, .comments-pagination, .comments-holder ol, .no-comments { border-color:#EC506C; }</style>    </head>
+    <body class="home blog">
+                <div class="doc-loader">
+		<div class="doc-loader-inner">
+                    <img class="doc-loader-img" src="http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/ajax-document-loader.gif" alt="Loading..." />
+		</div>
+        </div>         <div id="np-855" class="section" style="background-color:#000000; 
+                        background-image:url(http://img.drythemes.com/kronos_wp_images/kronos.png); 
+                        background-repeat:repeat-x; 
+                        background-position:left top; 
+                        "><div class="post-855 page type-page status-publish hentry block content-960 center-relative"> <script> var home_speed="500"; 
+                     var home_auto="true"; 
+                     var home_pagination="true"; 
+                     var home_hover="true"; 
+            </script>
+        <ul id = home class = "text-slider slides center-text">
+
+
+<li><img src = "http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/icon/slide01.png" alt = "" /></li>
+<li><img src = "http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/icon/slide02.png" alt = "" /></li>
+<li><img src = "http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/icon/slide03.png" alt = "" /></li>
+
+
+</ul>
+<div class = "home_pagination carousel_pagination left"></div>
+<div class = "clear"></div></div></div>        <!--Navigation Menu-->
+        <div class="main-menu absolute">           
+            <nav class="center-relative">
+                            <a class="left" href="http://www.byte-unit.com/">
+                        <img class="logo" src="http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/logo.png" alt="" />
+                    </a>
+                        <aside class="right">
+                <ul id="menu-custom_menu"><li><a href="#np-855">Take Me Home</a></li><li><a href="#np-891">About</a></li><li><a href="#np-1489">Blog</a></li><li><a href="#np-1365">Services</a></li><li><a href="#np-1479">Team</a></li><li><a href="#np-975">Portfolio</a></li><li><a href="#np-1595">Contact</a></li><li><a href="#np-25">Impressum</a></li></ul>                </aside>
+            </nav>
+        </div>  
+                    <div id="np-891" class="section" style="background-color:#d82546"><div class="post-891 page type-page status-publish hentry block content-960 center-relative"> <div class="page-title">                      
+                      <h2 class="page-title" style="color:#ffffff">About</h2><div class="title-description" style="color:#ffffff">Who We Are. Get To Know Us Better. </div>
+                      <div class="title-line-separator"></div>
+                      </div><div class="one_half ">
+
+<p class="info "><span style="color: #6c1e2c;">Wir sind eine kleine Gruppe von Web-Entwicklern & Desingnern die es sich zur Aufgabe gemacht haben, hochkarätige Internetlösungen nach den Vorstellungen unserer Kunden zu erstellen.<br /><br /></span></p>
+<br />
+<h6>Unsere Philosophie</h6>
+Eine Website muss gefallen und gleichzeitig übersichtlich und klar strukturiert sein.
+Wir erstellen Ihnen eine Website, die Ihren Ansprüchen gerecht wird.
+Besoderes Augenmerk legen wir dabei auf klare Strukturen, die sofort vermitteln, wo was zu finden ist. Denn wir wollen, dass sich Ihre Besucher auf ihrer Website sofort zurechtfinden und wohlfühlen.<br />
+<br />
+<h6>Seitenbearbeitung & Mitgestaltung durch den Kunden</h6>
+Nicht nur eine Möglichkeit, sondern eine praktische Funktion!
+Wir erstellen Ihnen Webseiten, die inhaltlich vom Kunden jederzeit selbständig geändert werden können: Damit können kleine und große Aktualisierungen von Ihnen sofort durchgeführt werden. Das zeichnet die Webseite nicht nur durch ihre Aktualität aus, sondern spart auch Geld – Ihr Geld! 
+</div>
+
+<div class="one_half last ">
+<img class="size-full wp-image-1612 aligncenter" alt="about_image" src="http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/icon/about_image.png" width="455" height="350" />
+<h6>Kompatibilität & Funktionalität: Ein Muss!</h6>
+Ihr Besucher soll Ihre Website stets gleich erleben, an jedem Computer, mit jedem Betriebssystem, mit jedem Browser und unabhängig von persönlichen Einstellungen.
+Dafür verzichten wir lieber auf unkompatible Animationen und Anwendungen, sondern programmieren Webseiten in ihrer reinsten Form. Oder fachlich ausgedrückt: standardkonforme, abwärtskompatible Webseitenprogrammierung.<br />
+<br />
+<h6>Suchmaschinenoptimierte Programmierung</h6>
+Damit ihre Seite gut gefunden wird!
+Ihre Seite soll bei den gängigen Suchmaschinen von Ihren potentiellen Besuchern leicht gefunden werden.
+Dafür muss die Seite die richtigen Randinformationen mitsenden und die Suchmaschinen müssen Ihre Seite gut ‘lesen’ können.
+Das bedeutet: Klare & eindeutige Programmierung der Seite, die Suchmuster der großen Anbieter kennen & beachten und vor allem: Keine falschen Tricks anwenden, die dazu führen können, dass Ihre Seite bei Google™ & co gar nicht mehr angezeigt werden.
+An diese Prinzipien haten wir uns!
+</div><div class="clear"></div></div></div><div id="np-1365" class="section" style="background-color:#feab58"><div class="post-1365 page type-page status-publish hentry block content-960 center-relative"> <div class="page-title">                      
+                      <h2 class="page-title" style="color:#ffffff">Services</h2><div class="title-description" style="color:">What We Do. Our List Of Services.</div>
+                      <div class="title-line-separator"></div>
+                      </div><div class="two_third ">
+
+<p class="info "><span style="color: #553c21;">Von der Konzeption über die Programmierung bis hin zum Betrieb betreuen wir unsere Projekte mit viel Herzblut, Individualität und Professionalität.</span></p>
+
+</div>
+
+<div class="one_third last ">
+Effizient, kostengünstig und hochwertig. Das ist unser Fokus, um Ihnen bestmögliche Lösungen anzubieten.
+</div><div class="clear"></div>
+
+<div class="one_half ">
+
+<img class="size-full wp-image-1614 aligncenter" alt="services_image" src="http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/icon/services_image.png" width="455" height="350" />
+
+</div>
+
+<div class="one_half last ">
+
+<ul class="service-short-code-holder ">
+                
+                
+
+<li>
+                <img class="service-short-code-image" src="http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/icon/services_icon_01.png" alt="" />                
+                <span class="service-title">
+                WEB DESIGN
+                </span>                
+                <p class="display-table">
+
+<span style="color: #000000;">Wir realisieren Webseiten von der kleinen privaten Homepage, über eine Webvisitenkarte, bis hin zum komplexen Webauftritt. Ganz nach Ihren Vorstellungen und Wünschen erstellen wir mit Ihnen zusammen Ihre individuelle Internetpräsentation / Websites.</span>
+
+</p>
+</li>
+
+<li>
+                <img class="service-short-code-image" src="http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/icon/services_icon_02.png" alt="" />                
+                <span class="service-title">
+                ONLINE SHOP
+                </span>                
+                <p class="display-table">
+
+<span style="color: #000000;">Mit einem Online-Shop vertreiben Sie Ihre Produkte und Dienstleistungen über das Internet. Einfach, direkt und schnell. Wir bieten Ihnen maßgeschneiderte Online-Shop Lösungen von der Planung, Konzeption und Umsetzung bis zum Online-Marketing.</span>
+
+</p>
+</li>
+
+<li>
+                <img class="service-short-code-image" src="http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/icon/services_icon_03.png" alt="" />                
+                <span class="service-title">
+                CONTENT MANAGEMENT SYSTEM
+                </span>                
+                <p class="display-table">
+
+<span style="color: #000000;">Ein Content-Management-System (CMS) bietet Ihnen die Möglichkeit Ihre Website einfach selbst zu verwalten. Inhalte und Strukturen können ohne Programmier- oder HTML-Kenntnisse jederzeit geändert werden.</span>
+
+</p>
+</li>
+
+<li>
+                <img class="service-short-code-image" src="http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/icon/services_icon_04.png" alt="" />                
+                <span class="service-title">
+                SUCHMASCHINENOPTIMIERUNG
+                </span>                
+                <p class="display-table">
+
+<span style="color: #000000;">Was nützt Ihnen die beste Internetseite, wenn diese niemand findet? Wir helfen Ihnen, dass Ihre Webseiten gefunden und von potentiellen Kunden besucht werden.</span>
+
+</p>
+</li>
+
+
+</ul>
+
+</div><div class="clear"></div></div></div><div id="np-975" class="section" style="background-color:#273c67"><div class="post-975 page type-page status-publish hentry block content-960 center-relative"> <div class="page-title">                      
+                      <h2 class="page-title" style="color:#ffffff">Portfolio</h2><div class="title-description" style="color:">Check Out Our Portfolio.</div>
+                      <div class="title-line-separator"></div>
+                      </div><div class="two_third ">
+<p class="info "><span style="color: #8c9fc5;">Eine Auswahl unserer bisherigen Projekte und Referenzen.</span></p>
+</div>
+
+<div class="one_third last ">
+Wir würden uns freuen auch Ihre Projekt bald in unserer Referenzenliste aufzuführen.
+</div><div class="clear"></div>
+
+<div class="one ">
+                    
+<ul id = "filter"><li class = "all current">ALL</li><li class = "online-shop-2">Online-Shop</li><li class = "seo-2">SEO</li><li class = "web-portal">Web-Portal</li></ul><ul id = "work-items"><li class = "seo-2 ">
+<div class = "photo-holder">
+<a href = "http://www.byte-unit.com/portfolio/salzgrotte-widdersdorf-de/">
+<img class = "portfolio-plus" src = "http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/plus.png" alt = "" />
+</a>
+<img width="1903" height="1541" src="http://www.byte-unit.com/wp-content/uploads/2013/06/FireShot-Screen-Capture-067-Home-I-Salzgrotte-Widdersdorf-Köln-www_salzgrotte-widdersdorf_de.png" class="attachment-post-thumbnail wp-post-image" alt="salzgrotte-widdersdorf.de" />
+</div>
+<h2><a href = "http://www.byte-unit.com/portfolio/salzgrotte-widdersdorf-de/">salzgrotte-widdersdorf.de</a></h2>
+<span class = "sub-info">Suchmaschinenoptimierung</span>
+<div class = "clear"></div>
+</li><li class = "web-portal ">
+<div class = "photo-holder">
+<a href = "http://www.byte-unit.com/portfolio/1946/">
+<img class = "portfolio-plus" src = "http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/plus.png" alt = "" />
+</a>
+<img width="1501" height="1038" src="http://www.byte-unit.com/wp-content/uploads/2012/11/kinderanaesthesie-aktuell.de_.png" class="attachment-post-thumbnail wp-post-image" alt="kinderanaesthesie-aktuell.de" />
+</div>
+<h2><a href = "http://www.byte-unit.com/portfolio/1946/">kinderanaesthesie-aktuell.de</a></h2>
+<span class = "sub-info">Web-Portale / Webdesign</span>
+<div class = "clear"></div>
+</li><li class = "online-shop-2 ">
+<div class = "photo-holder">
+<a href = "http://www.byte-unit.com/portfolio/herzenstreu-de-handgemachte-kindertraume-dusseldorf/">
+<img class = "portfolio-plus" src = "http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/plus.png" alt = "" />
+</a>
+<img width="1261" height="873" src="http://www.byte-unit.com/wp-content/uploads/2012/11/herzenstreu.de_.png" class="attachment-post-thumbnail wp-post-image" alt="herzenstreu.de" />
+</div>
+<h2><a href = "http://www.byte-unit.com/portfolio/herzenstreu-de-handgemachte-kindertraume-dusseldorf/">herzenstreu.de &#8211; Handgemachte Kinderträume. Düsseldorf.</a></h2>
+<span class = "sub-info">E-Commerce / Webdesign / Website Relaunch</span>
+<div class = "clear"></div>
+</li><li class = "web-portal ">
+<div class = "photo-holder">
+<a href = "http://www.byte-unit.com/portfolio/goodlocation-de/">
+<img class = "portfolio-plus" src = "http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/plus.png" alt = "" />
+</a>
+<img width="1920" height="1015" src="http://www.byte-unit.com/wp-content/uploads/2012/11/goodLocation.de_.png" class="attachment-post-thumbnail wp-post-image" alt="goodLocation.de" />
+</div>
+<h2><a href = "http://www.byte-unit.com/portfolio/goodlocation-de/">goodLocation.de &#8211; Event Location Verzeichnis</a></h2>
+<span class = "sub-info">Web-Portale</span>
+<div class = "clear"></div>
+</li></ul><div class = "clear"></div>
+
+                    </div><div class="clear"></div></div></div><div id="np-1706" class="section" style="background-color:#f27537"><div class="post-1706 page type-page status-publish hentry block content-960 center-relative"> <div class="page-title">                      
+                      <h2 class="page-title" style="color:#ffffff">Video</h2><div class="title-description" style="color:">Our latest video. Take a look.</div>
+                      <div class="title-line-separator"></div>
+                      </div><div class="one ">
+                    
+<p class="info "><span style="color: #9c3e0f;">Sie vollen Videos, auf Ihrer WebSeite einbetten...!?</span></p>
+
+                    </div><div class="clear"></div>
+
+<div class="two_third ">
+<div class="vimeo">
+			<input type="hidden" class="vimeo_source" value="1084537"/>              
+                  </div>
+
+Hier ein kleines Beispiel, wie sich das Ganze anfühlt. :-)
+</div>
+
+<div class="one_third last ">
+
+
+<br /><br />
+
+Es ist kein Hexerwerk und kostet kein Vermögen.
+
+<br /><br /><br /><br />
+
+<p class="info ">       <span style="color: #9c3e0f;">... wir machen das!</span></p>
+</div><div class="clear"></div></div></div><div id="np-1479" class="section" style="background-color:#baba32"><div class="post-1479 page type-page status-publish hentry block content-960 center-relative"> <div class="page-title">                      
+                      <h2 class="page-title" style="color:#ffffff">Team</h2><div class="title-description" style="color:">Meet Our Awesome Team.</div>
+                      <div class="title-line-separator"></div>
+                      </div><div class="two_third ">
+<p class="info "><span style="color: #686716;">Unsere Special Unit Task Force. Ein kleines, schlagkräftiges Team.</span></p>
+</div>
+
+<div class="one_third last ">
+Für jeden Bereich haben wir einen Spezialisten, der die anfallenden Aufgaben schnell und effektiv umsetzen kann.
+</div><div class="clear"></div>
+
+<div class="one_third ">
+<div class="about-item-holder">
+               <img class="about-image block" src="http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/icon/image_does_here.jpg" alt="" />               
+               <h2>TOM</h2>
+               <div class="sub-info">LEAD DESIGNER</div>               
+               
+
+<div class="social-about">
+<a href="#"><img src="http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/icon/team_twitter_icon.png" alt="" /></a>
+<a href="https://facebook.com/byteunit"><img src="http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/icon/team_facebook_icon.png" alt="" /></a>
+<a href="#"><img src="http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/icon/team_linkedin_icon.png" alt="" /></a>
+</div>
+
+Der kreative Kopf. Screendesign und Photographie sind seine Welt.
+
+
+               </div>
+</div>
+
+<div class="one_third ">
+<div class="about-item-holder">
+               <img class="about-image block" src="http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/icon/image_does_here.jpg" alt="" />               
+               <h2>STEFFEN</h2>
+               <div class="sub-info">CHIEF EXECUTIVE OFFICER</div>               
+               
+
+<div class="social-about">
+<a href="#"><img src="http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/icon/team_twitter_icon.png" alt="" /></a>
+<a href="https://facebook.com/byteunit"><img src="http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/icon/team_facebook_icon.png" alt="" /></a>
+<a href="#"><img src="http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/icon/team_linkedin_icon.png" alt="" /></a>
+</div>
+
+Spezialist im Bereich der technischen Umsetzung unserer Projekte. Gleichzeitig der Kassenwart. 
+
+
+               </div>
+</div>
+
+<div class="one_third last ">
+<div class="about-item-holder">
+               <img class="about-image block" src="http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/icon/image_does_here.jpg" alt="" />               
+               <h2>MANUEL</h2>
+               <div class="sub-info">DEVELOPER</div>               
+               
+
+<div class="social-about">
+<a href="#"><img src="http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/icon/team_twitter_icon.png" alt="" /></a>
+<a href="https://facebook.com/byteunit"><img src="http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/icon/team_facebook_icon.png" alt="" /></a>
+<a href="#"><img src="http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/icon/team_linkedin_icon.png" alt="" /></a>
+</div>
+
+Der Frickler und Ideenmacher.
+
+
+               </div>
+</div><div class="clear"></div></div></div><div id="np-1489" class="section" style="background-color:#f03050"><div class="post-1489 page type-page status-publish hentry block content-960 center-relative"> <div class="page-title">                      
+                      <h2 class="page-title" style="color:#ffffff">Blog</h2><div class="title-description" style="color:">Read Our Latest News. Stay Informed.</div>
+                      <div class="title-line-separator"></div>
+                      </div><div id="main-blog-holder"><div id="blog-items-holder"><ul id="news-items"><li class="one_third">                                                               
+				<p class="title">
+				<a href="http://www.byte-unit.com/strato-http-500-magento/">Strato WebHosting ...</a>
+				</p>
+				<span class="category">Dezember 11, 2013</span>
+                                <div class="blog-front-content">Vor kurzem hat mit ein komisches Phänomen beschäftigt.
+
+Eine in einem Strato WebHosting Paket laufende Magento ...</div>
+				<a class="read-more" href="http://www.byte-unit.com/strato-http-500-magento/">
+                                    READ MORE
+				</a>				
+			</li><li class="one_third">                                                               
+				<p class="title">
+				<a href="http://www.byte-unit.com/typo3-6-1-und-mm_forum-1-9-2/">Typo3 6.1 und mm_forum ...</a>
+				</p>
+				<span class="category">Dezember 11, 2013</span>
+                                <div class="blog-front-content">Ein funktionierendes Forum Plugin für Typo3 gibt es anscheinend nicht mehr wirklich.
+Darum habe ich mich rangesetzt ...</div>
+				<a class="read-more" href="http://www.byte-unit.com/typo3-6-1-und-mm_forum-1-9-2/">
+                                    READ MORE
+				</a>				
+			</li></ul><div id="blog-pagination" class="clear center-text">   
+	
+    <div class="clear"></div>
+</div>
+</div></div></div></div><div id="np-1595" class="section" style="background-color:#1e1e1e"><div class="post-1595 page type-page status-publish hentry block content-960 center-relative"> <div class="page-title">                      
+                      <h2 class="page-title" style="color:#ffffff">Contact</h2><div class="title-description" style="color:">Stay In Touch With Us. Don't Spam.</div>
+                      <div class="title-line-separator"></div>
+                      </div><div class="one_half ">
+<p class="info "><span style="color: #555555;">Senden Sie uns eine Nachricht! <br /></span></p>
+<br />
+Ihre Anfragen und Wünsche nehmen wir gerne entgegen.
+<br />
+<div class="contact-form">                
+			<ul id="contact-form">
+				<li class="right-35 name-holder">
+					<input type="text" id="name" />
+				</li>
+				<li class="right-35 email-holder">
+					<input type="text" id="contact-email" />
+				</li>
+				<li class="right-35 message-holder">
+					<textarea rows="4" cols="50" id="message"></textarea>
+				</li>
+				<li>
+					<button onClick="SendMail()" id="send-message">SUBMIT</button>   
+				</li>
+			</ul>
+                    <div class="clear"></div>					
+                </div>
+                <div class="clear"></div>					
+                <div class="sending-message-status-holder"><span id="sending-message-status">&nbsp;</span></div>
+</div>
+
+<div class="one_half last ">
+<p class="info ">Ihre Nachricht</p>
+
+<br />
+Wenn Sie Fragen haben, Sie an weiteren Informationen interessiert sind oder uns etwas miteilen möchten, dann nutzen Sie bitte unverbindlich eine der angegebenen Möglichkeiten der Kontaktaufnahme.
+<br />
+<br />
+
+Unter Linden 30
+<br />
+Köln
+<br />
+Deutschland
+<br /><br />
+Telefon: +49 1577 3309955
+<br />
+E-Mail: info@byte-unit.com
+<br />
+WebSite: www.byte-unit.com
+<br />
+<div class="social-about">
+<a href="#"><img src="http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/icon/contact_twitter_icon.png" alt="" /></a>
+<a href="https://facebook.com/byteunit"><img src="http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/icon/contact_facebook_icon.png" alt="" /></a>
+<a href="#"><img src="http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/icon/contact_dribbble_icon.png" alt="" /></a>
+<a href="#"><img src="http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/icon/contact_behance_icon.png" alt="" /></a>
+<a href="#"><img src="http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/icon/contact_flickr_icon.png" alt="" /></a>
+</div>
+</div><div class="clear"></div></div></div><div id="np-25" class="section" style="background-color:#D82546"><div class="post-25 page type-page status-publish hentry block content-960 center-relative"> <div class="page-title">                      
+                      <h2 class="page-title" style="color:#ffffff">Impressum</h2><div class="title-description" style="color:"></div>
+                      <div class="title-line-separator"></div>
+                      </div>Angaben gemäß § 5 TMG:
+
+<br /><br />
+
+Steffen Wappler<br />
+byte-unit.com<br />
+Unter Linden 30<br />
+50859 Köln<br />
+<h2>Kontakt:<br /></h2>
+Telefon: +49 (0) 1577 330 99 55<br />
+
+E-Mail: <a href="mailto:info@byte-unit.com">info@byte-unit.com</a>
+
+&nbsp;
+<h2>Aufsichtsbehörde:</h2>
+Landgericht Köln
+
+&nbsp;
+<h2>Haftungsausschluss:</h2>
+<strong>Haftung für Inhalte</strong>
+
+&nbsp;
+
+Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
+
+&nbsp;
+
+<strong>Haftung für Links</strong>
+
+&nbsp;
+
+Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.
+
+&nbsp;
+
+<strong>Urheberrecht</strong>
+
+&nbsp;
+
+Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
+
+&nbsp;
+
+<strong>Datenschutz</strong>
+
+&nbsp;
+
+Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.
+
+&nbsp;
+
+Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
+
+&nbsp;
+
+Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.
+
+&nbsp;
+
+&nbsp;
+
+<strong>Datenschutzerklärung für die Nutzung von Facebook-Plugins (Like-Button)</strong>
+
+&nbsp;
+
+Auf unseren Seiten sind Plugins des sozialen Netzwerks Facebook, 1601 South California Avenue, Palo Alto, CA 94304, USA integriert. Die Facebook-Plugins erkennen Sie an dem Facebook-Logo oder dem "Like-Button" ("Gefällt mir") auf unserer Seite. Eine Übersicht über die Facebook-Plugins finden Sie hier: <a href="http://developers.facebook.com/docs/plugins/" target="_blank">http://developers.facebook.com/docs/plugins/</a>.
+Wenn Sie unsere Seiten besuchen, wird über das Plugin eine direkte Verbindung zwischen Ihrem Browser und dem Facebook-Server hergestellt. Facebook erhält dadurch die Information, dass Sie mit Ihrer IP-Adresse unsere Seite besucht haben. Wenn Sie den Facebook "Like-Button" anklicken während Sie in Ihrem Facebook-Account eingeloggt sind, können Sie die Inhalte unserer Seiten auf Ihrem Facebook-Profil verlinken. Dadurch kann Facebook den Besuch unserer Seiten Ihrem Benutzerkonto zuordnen. Wir weisen darauf hin, dass wir als Anbieter der Seiten keine Kenntnis vom Inhalt der übermittelten Daten sowie deren Nutzung durch Facebook erhalten. Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von facebook unter <a href="http://de-de.facebook.com/policy.php" target="_blank"> http://de-de.facebook.com/policy.php</a>
+
+&nbsp;
+
+Wenn Sie nicht wünschen, dass Facebook den Besuch unserer Seiten Ihrem Facebook-Nutzerkonto zuordnen kann, loggen Sie sich bitte aus Ihrem Facebook-Benutzerkonto aus.
+
+&nbsp;
+
+&nbsp;
+
+<strong>Datenschutzerklärung für die Nutzung von Google Analytics</strong>
+
+&nbsp;
+
+Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. ("Google"). Google Analytics verwendet sog. "Cookies", Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Im Falle der Aktivierung der IP-Anonymisierung auf dieser Webseite wird Ihre IP-Adresse von Google jedoch innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum zuvor gekürzt.
+
+&nbsp;
+
+Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt. Im Auftrag des Betreibers dieser Website wird Google diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen gegenüber dem Websitebetreiber zu erbringen. Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt.
+
+&nbsp;
+
+Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können. Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren: <a href="http://tools.google.com/dlpage/gaoptout?hl=de">http://tools.google.com/dlpage/gaoptout?hl=de</a>.
+
+&nbsp;
+
+&nbsp;
+
+<strong>Datenschutzerklärung für die Nutzung von Google Adsense</strong>
+
+&nbsp;
+
+Diese Website benutzt Google AdSense, einen Dienst zum Einbinden von Werbeanzeigen der Google Inc. ("Google"). Google AdSense verwendet sog. "Cookies", Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website ermöglicht. Google AdSense verwendet auch so genannte Web Beacons (unsichtbare Grafiken). Durch diese Web Beacons können Informationen wie der Besucherverkehr auf diesen Seiten ausgewertet werden.
+
+&nbsp;
+
+Die durch Cookies und Web Beacons erzeugten Informationen über die Benutzung dieser Website (einschließlich Ihrer IP-Adresse) und Auslieferung von Werbeformaten werden an einen Server von Google in den USA übertragen und dort gespeichert. Diese Informationen können von Google an Vertragspartner von Google weiter gegeben werden. Google wird Ihre IP-Adresse jedoch nicht mit anderen von Ihnen gespeicherten Daten zusammenführen.
+
+&nbsp;
+
+Sie können die Installation der Cookies durch eine entsprechende Einstellung Ihrer Browser Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website voll umfänglich nutzen können. Durch die Nutzung dieser Website erklären Sie sich mit der Bearbeitung der über Sie erhobenen Daten durch Google in der zuvor beschriebenen Art und Weise und zu dem zuvor benannten Zweck einverstanden.
+
+&nbsp;
+
+&nbsp;
+
+<strong>Datenschutzerklärung für die Nutzung von Google +1</strong>
+
+&nbsp;
+
+<em>Erfassung und Weitergabe von Informationen:</em>
+Mithilfe der Google +1-Schaltfläche können Sie Informationen weltweit veröffentlichen. über die Google +1-Schaltfläche erhalten Sie und andere Nutzer personalisierte Inhalte von Google und unseren Partnern. Google speichert sowohl die Information, dass Sie für einen Inhalt +1 gegeben haben, als auch Informationen über die Seite, die Sie beim Klicken auf +1 angesehen haben. Ihre +1 können als Hinweise zusammen mit Ihrem Profilnamen und Ihrem Foto in Google-Diensten, wie etwa in Suchergebnissen oder in Ihrem Google-Profil, oder an anderen Stellen auf Websites und Anzeigen im Internet eingeblendet werden.
+Google zeichnet Informationen über Ihre +1-Aktivitäten auf, um die Google-Dienste für Sie und andere zu verbessern. Um die Google +1-Schaltfläche verwenden zu können, benötigen Sie ein weltweit sichtbares, öffentliches Google-Profil, das zumindest den für das Profil gewählten Namen enthalten muss. Dieser Name wird in allen Google-Diensten verwendet. In manchen Fällen kann dieser Name auch einen anderen Namen ersetzen, den Sie beim Teilen von Inhalten über Ihr Google-Konto verwendet haben. Die Identität Ihres Google-Profils kann Nutzern angezeigt werden, die Ihre E-Mail-Adresse kennen oder über andere identifizierende Informationen von Ihnen verfügen.
+
+<em>Verwendung der erfassten Informationen:</em>
+Neben den oben erläuterten Verwendungszwecken werden die von Ihnen bereitgestellten Informationen gemäß den geltenden Google-Datenschutzbestimmungen genutzt. Google veröffentlicht möglicherweise zusammengefasste Statistiken über die +1-Aktivitäten der Nutzer bzw. gibt diese an Nutzer und Partner weiter, wie etwa Publisher, Inserenten oder verbundene Websites.
+
+&nbsp;
+
+&nbsp;
+
+<strong>Datenschutzerklärung für die Nutzung von Twitter</strong>
+
+&nbsp;
+
+Auf unseren Seiten sind Funktionen des Dienstes Twitter eingebunden. Diese Funktionen werden angeboten durch die Twitter Inc., 795 Folsom St., Suite 600, San Francisco, CA 94107, USA. Durch das Benutzen von Twitter und der Funktion "Re-Tweet" werden die von Ihnen besuchten Webseiten mit Ihrem Twitter-Account verknüpft und anderen Nutzern bekannt gegeben. Dabei werden auch Daten an Twitter übertragen.
+
+&nbsp;
+
+Wir weisen darauf hin, dass wir als Anbieter der Seiten keine Kenntnis vom Inhalt der übermittelten Daten sowie deren Nutzung durch Twitter erhalten. Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von Twitter unter <a href="http://twitter.com/privacy" target="_blank">http://twitter.com/privacy</a>.
+
+&nbsp;
+
+Ihre Datenschutzeinstellungen bei Twitter können Sie in den Konto-Einstellungen unter <a href="http://twitter.com/account/settings" target="_blank">http://twitter.com/account/settings</a> ändern.</div></div><div id="np-57" class="section" style="background-color:#D82546"><div class="post-57 page type-page status-publish hentry block content-960 center-relative"> <div class="page-title">                      
+                      <h2 class="page-title" style="color:#ffffff">Converter</h2><div class="title-description" style="color:"></div>
+                      <div class="title-line-separator"></div>
+                      </div>Was sind bits, bytes und andere Maßeinheiten für digitale informationen?
+
+Ein bit ist ein binäres zeichen, die kleine Steigerung von Daten in einem Computer. Ein bit kann nur einen von zwei Zuständen haben: 0 oder 1, vergleichbar mit dem Zustand EIN oder AUS.
+
+Weil bits so klein sind, arbeitet man mit mehreren bits gleichzeitig. Bits werden in 8er Gruppen zusammengefasst. Diese Gruppe aus acht bits nennt man byte.
+Ein byte enthält genug information um ein einzelnens ASCII zeichen abzubilden, z.B. "h", "G" oder "6".
+
+Ein kilobyte sind 1.024 bytes, und nicht 1.000 bytes, wie vielleicht vermutet, weil Computer im binär system (zweier Basis) und nicht im dezimal system (zehner Basis) rechnen.
+
+Speicherplatz und Arbetisspeicher von Computern is häufig in megabytes und gigybytes angegeben. Ein mittegroßer Roman enthält etwa 1 megabyte an information.
+Ein megabyte sind 1.024 kilobyte oder 1,048,576 (1024x1024) bytes und nicht eine million bytes.
+
+Gleichermaßen ist 1 gigabyte (GB) gleich 1,073,741,824 (1024x1024x1024) bytes.
+Ein terabyte (TB) entspricht 1.024 gigabyte (GB); 1 terabyte entspricht etwa der Menge an Information einer großen Bibliothek, oder etwa 1610 Cds befüllt mit den (Roh-)Daten.
+Ein petabyte (PB) entspricht 1.024 terabyte (TB); Unternehmen wie google, facebook, amazon halten Datenmengen von einigen petabytes (PBs).
+Ein exabyte (EB) entspricht 1.024 petabyte (PB).
+Ein zettabyte (ZB) is 1,024 exabyte (EB).
+Und zu guter letzt, yottabyte (YB) entspricht 1,024 zettabyte (ZB).
+
+Einige Festplatten-Hersteller nutzen das dezimale Zahlensystem zur Angabe der Speicherkapazität.
+Das Ergebnis dessen ist, dass ein 1 MB als eine million byte definiert ist, und 1 GB somit eine milliarde bytes entspricht.
+
+Da aber, wie schon erwähnt, Computer das binäre Zahlensystem benutzen, gibt es dann Abweichungen in der real zur Verfügung stehenden Speicherkapazität.
+Beispielsweise eine Festplatte deren Größe mit 10 GB (dezimal system) angegeben ist, ist lediglich in der Lage 10.000.000.000 bytes zu speichern.
+Wobei aber 10 GB eigentlich 10,737,418,240 bytes sind.
+Des Ergebnis ist dann, dass die 10 GB im computer dann nur noch 9,31 GB entsprechen.
+
+Wir rechnen mit der Basis 10:
+10^1 = 10
+10^2 = 10*10 = 100
+10^3 = 10*10*10 = 1.000
+10^6 = 1.000.000
+
+Computer rechnen mit der Basis 2:
+2^1 = 2
+2^2 = 2*2 = 4
+2^3 = 2*2*2 = 8
+2^10 = 2*2*2*2*2*2*2*2*2*2 = 1.024
+2^20 = 1.048.576
+
+Im Computer jargon werden die folgenden Einheiten genutzt:
+Einheit Wert
+1 kilobyte (KB) 1.024 bytes
+1 megabyte (MB) 1.048.576 bytes
+1 gigabyte (GB) 1.073.741.824 bytes
+1 terabyte (TB) 1.099.511.627.776 bytes
+1 petabyte (PB) 1.125.899.906.842.624 bytes</div></div><div id="np-240" class="section" style="background-color:#D82546"><div class="post-240 page type-page status-publish hentry block content-960 center-relative"> <div class="page-title">                      
+                      <h2 class="page-title" style="color:#ffffff">Rot-N, Online Rotation Verschlüsselung/Entschlüsselung (ROT5, ROT13, ROT18, ROT47)</h2><div class="title-description" style="color:"></div>
+                      <div class="title-line-separator"></div>
+                      </div>&nbsp;
+<h1>Rot-n, Rot-13 - Encoder und Decoder</h1>
+ROT13 (engl. rotate by 13 places, zu Deutsch in etwa „rotiere um 13 Stellen“) ist eine Verschiebechiffre (auch Caesar-Chiffre genannt), mit der auf einfache Weise Texte verschlüsselt werden können. Dies geschieht durch Ersetzung von Buchstaben – bei ROT13 im Speziellen wird jeder Buchstabe des lateinischen Alphabets durch den im Alphabet um 13 Stellen davor bzw. dahinter liegenden Buchstaben ersetzt.
+<h1>ROT encoder and decoder</h1>
+<h2>Einfaches online tool für die gängigen rot-Verfahren (ROT5, ROT13, ROT18, ROT47).</h2>
+<noscript>
+<p class='error'>This tool requires Javascript to work properly. Please enable it in your browser's preferences.</p>
+</noscript>&nbsp;
+
+<script type="text/javascript">
+<!--
+// Convert a single character:
+function convert_char (rot_algo, range_start, range_end, input_char) {
+  return String.fromCharCode(range_start + (((input_char.charCodeAt(0) - range_start) + rot_algo) % (rot_algo * 2)));
+}
+
+function convert () {
+  // Get ROT algorithm:
+  var rot = "";
+  if (document.converter.rot.value == "empty") {
+    alert("Bitte einen ROT-Algorithmus wählen!");
+    return;
+  } else {
+    rot = document.converter.rot.value;
+  }
+
+  // Convert according to chosen ROT algorithm:
+  var input = document.converter.text.value;
+  var output = "";
+  switch (rot) {
+    case "5":
+      for (var i = 0; i < input.length; i++ ) {
+        // Numbers 0-9 (code 48-57):
+        if (input.charCodeAt(i) >= 48 && input.charCodeAt(i) <= 57) {
+          output = output + convert_char(5, 48, 57, input.charAt(i));
+        } else {
+          output = output + input.charAt(i);
+        }
+      }
+      break;
+    case "13":
+      for (var i = 0; i < input.length; i++ ) {
+        // Letters A-Z (code 65-90):
+        if (input.charCodeAt(i) >= 65 && input.charCodeAt(i) <= 90) {
+          output = output + convert_char(13, 65, 90, input.charAt(i));
+        } else {
+          // Letters a-z (code 97-122):
+          if (input.charCodeAt(i) >= 97 && input.charCodeAt(i) <= 122) {
+            output = output + convert_char(13, 97, 122, input.charAt(i));
+          } else {
+            output = output + input.charAt(i);
+          }
+        }
+      }
+      break;
+    case "18":
+      for (var i = 0; i < input.length; i++ ) {
+        // Letters A-Z (code 65-90):
+        if (input.charCodeAt(i) >= 65 && input.charCodeAt(i) <= 90) {
+          output = output + convert_char(13, 65, 90, input.charAt(i));
+        } else {
+          // Letters a-z (code 97-122):
+          if (input.charCodeAt(i) >= 97 && input.charCodeAt(i) <= 122) {
+            output = output + convert_char(13, 97, 122, input.charAt(i));
+          } else {
+            // Numbers 0-9 (code 48-57):
+            if (input.charCodeAt(i) >= 48 && input.charCodeAt(i) <= 57) {
+              output = output + convert_char(5, 48, 57, input.charAt(i));
+            } else {
+              output = output + input.charAt(i);
+            }
+          }
+        }
+      }
+      break;
+    case "47":
+      for (var i = 0; i < input.length; i++ ) {
+        // Characters "!"-"~" (code 33-126):
+        if (input.charCodeAt(i) >= 33 && input.charCodeAt(i) <= 126) {
+          output = output + convert_char(47, 33, 126, input.charAt(i));
+        } else {
+          output = output + input.charAt(i);
+        }
+      }
+      break;
+  }
+
+  document.converter.text.value = output;
+}
+//-->
+</script>
+
+
+
+<div class="form-div">
+      <form name="converter" onsubmit="return false;" action="">
+        <table>
+          <tr>
+            <td>
+              <select name="rot" size="1">
+                <option value="empty">Algorithmus wählen ...</option>
+                <option value="5">ROT5 (Numbers)</option>
+                <option value="13">ROT13 (Characters)</option>
+                <option value="18">ROT18 (Numbers and Characters)</option>
+                <option value="47">ROT47 (all ASCII-Characters)</option>
+              </select>
+              <input class="form-button" value="Transform" onclick="convert()" type="submit">
+            </td>
+          </tr>
+          <tr>
+            <td><textarea cols="50" rows="15" name="text"></textarea></td>
+          </tr>
+        </table>
+      </form>
+      </div>
+</div></div><div id="np-224" class="section" style="background-color:#D82546"><div class="post-224 page type-page status-publish hentry block content-960 center-relative"> <div class="page-title">                      
+                      <h2 class="page-title" style="color:#ffffff">Web Entwickler Tips&#8217;n'Tricks</h2><div class="title-description" style="color:"></div>
+                      <div class="title-line-separator"></div>
+                      </div><div>
+<h1>Web Entwickler Tips'n'Tricks</h1>
+<h2>How to make an ajax call using javascript, without using jquery?</h2>
+<h4>With javascrtipt</h4>
+<code>&lt;script type="text/javascript"&gt;
+function loadXMLDoc() {
+var xmlhttp;
+if (window.XMLHttpRequest) { // code for IE7+, Firefox, Chrome, Opera, Safari
+xmlhttp=new XMLHttpRequest();
+} else {// code for IE6, IE5
+xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+}
+xmlhttp.onreadystatechange=function() {
+if (xmlhttp.readyState==4 &amp;&amp; xmlhttp.status==200) {
+document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
+}
+}
+xmlhttp.open("GET","ajax_info.txt",true);
+xmlhttp.send();
+}
+&lt;/script&gt;</code>
+<h4>With jquery</h4>
+<code>$.ajax({ url: "test.html",<code> </code>context: document.body, success: function(){ $(this).addClass("done"); } });</code>
+
+</div></div></div>    
+			
+                
+            <!--Footer-->
+
+<footer class="clear center-text"> 
+            <div class="footer-logo"><img src="http://www.byte-unit.com/wp-content/themes/Kronos-WP/images/footer_logo.png" alt="" /></div>
+                © Byte-Unit.com - Built with love and passion</footer>
+
+<p><a onclick='document.cookie="wpmp_switcher=mobile;path=/;expires=Tue, 01-01-2030 00:00:00 GMT";' href='http://www.byte-unit.com/?wpmp_switcher=mobile'>Switch to our mobile site</a></p><link rel='stylesheet' id='google_fonts_style-css'  href='http://fonts.googleapis.com/css?family=Armata&#038;ver=3.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='clear_style-css'  href='http://www.byte-unit.com/wp-content/themes/Kronos-WP/css/clear.css?ver=3.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='colors_style-css'  href='http://www.byte-unit.com/wp-content/themes/Kronos-WP/css/colors.css?ver=3.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='default_style-css'  href='http://www.byte-unit.com/wp-content/themes/Kronos-WP/css/default.css?ver=3.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='columns_style-css'  href='http://www.byte-unit.com/wp-content/themes/Kronos-WP/css/columns.css?ver=3.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='common_style-css'  href='http://www.byte-unit.com/wp-content/themes/Kronos-WP/css/common.css?ver=3.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='main_theme_style-css'  href='http://www.byte-unit.com/wp-content/themes/Kronos-WP/style.css?ver=3.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='carouFredSel_style-css'  href='http://www.byte-unit.com/wp-content/themes/Kronos-WP/css/carouFredSel.css?ver=3.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='typography_style-css'  href='http://www.byte-unit.com/wp-content/themes/Kronos-WP/css/typography.css?ver=3.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='standard_wp_style-css'  href='http://www.byte-unit.com/wp-content/themes/Kronos-WP/css/wp.css?ver=3.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive_style-css'  href='http://www.byte-unit.com/wp-content/themes/Kronos-WP/css/responsive.css?ver=3.7.1' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var popup_handler = {"SiteUrl":"http:\/\/www.byte-unit.com\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.byte-unit.com/wp-content/themes/Kronos-WP/js/popup_handler.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://www.byte-unit.com/wp-content/themes/Kronos-WP/js/pagination_handler.js?ver=3.7.1'></script>
+<script type='text/javascript' src='http://www.byte-unit.com/wp-content/themes/Kronos-WP/js/jquery.hashtag.js?ver=3.7.1'></script>
+<script type='text/javascript' src='http://www.byte-unit.com/wp-content/themes/Kronos-WP/js/jquery.dryMenu.js?ver=3.7.1'></script>
+<script type='text/javascript' src='http://www.byte-unit.com/wp-content/themes/Kronos-WP/js/jquery.carouFredSel-6.1.0-packed.js?ver=3.7.1'></script>
+<script type='text/javascript' src='http://www.byte-unit.com/wp-content/themes/Kronos-WP/js/jquery.mousewheel.min.js?ver=3.7.1'></script>
+<script type='text/javascript' src='http://www.byte-unit.com/wp-content/themes/Kronos-WP/js/jquery.touchSwipe.min.js?ver=3.7.1'></script>
+<script type='text/javascript' src='http://www.byte-unit.com/wp-content/themes/Kronos-WP/js/jquery.ba-throttle-debounce.min.js?ver=3.7.1'></script>
+<script type='text/javascript' src='http://www.byte-unit.com/wp-content/themes/Kronos-WP/js/jquery.easing.1.3.js?ver=3.7.1'></script>
+<script type='text/javascript' src='http://www.byte-unit.com/wp-content/themes/Kronos-WP/js/jquery.myHint.js?ver=3.7.1'></script>
+<script type='text/javascript' src='http://www.byte-unit.com/wp-content/themes/Kronos-WP/js/jquery.omniwindow.js?ver=3.7.1'></script>
+<script type='text/javascript' src='http://www.byte-unit.com/wp-content/themes/Kronos-WP/js/jquery.center.js?ver=3.7.1'></script>
+<script type='text/javascript' src='http://www.byte-unit.com/wp-content/themes/Kronos-WP/js/portfolio.js?ver=3.7.1'></script>
+<script type='text/javascript' src='http://www.byte-unit.com/wp-content/themes/Kronos-WP/js/jquery.vticker-min.js?ver=3.7.1'></script>
+<script type='text/javascript' src='http://www.byte-unit.com/wp-content/themes/Kronos-WP/js/jquery.tweets.js?ver=3.7.1'></script>
+<script type='text/javascript' src='http://www.byte-unit.com/wp-content/themes/Kronos-WP/js/getStyle.js?ver=3.7.1'></script>
+<script type='text/javascript' src='http://www.byte-unit.com/wp-content/themes/Kronos-WP/js/backgroundImageFix.js?ver=3.7.1'></script>
+<script type='text/javascript' src='http://www.byte-unit.com/wp-content/themes/Kronos-WP/js/savePosition.js?ver=3.7.1'></script>
+<script type='text/javascript' src='http://www.byte-unit.com/wp-content/themes/Kronos-WP/js/smallMenu.js?ver=3.7.1'></script>
+<script type='text/javascript' src='http://www.byte-unit.com/wp-content/themes/Kronos-WP/js/main.js?ver=3.7.1'></script>
+</body>
+</html>
+<!-- super cache -->
